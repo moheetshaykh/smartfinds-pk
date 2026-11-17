@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="theme-color" content="#f8faf8">
+	<meta name="description" content="Discover useful finds across mobile gadgets, electronics, home and kitchen, and lifestyle. SmartFinds PK is an independent product discovery site.">
+	<title>SmartFinds PK | Find your next favorite</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+	<link rel="icon" href="favicon.svg" type="image/svg+xml">
+	<link rel="stylesheet" href="styles.css">
+	<script src="app.js" defer></script>
+</head>
+<body>
+	<a class="skip-link" href="#main">Skip to content</a>
+	<div class="announcement">A thoughtful shortlist for your next good find <span aria-hidden="true">✳</span> Independent product discovery from Pakistan</div>
+	<header class="site-header">
+		<div class="header-main wrap">
+			<a class="brand" href="index.html" aria-label="SmartFinds PK home"><span class="brand-mark" aria-hidden="true"><span></span><span></span><span></span><span></span></span><span>smartfinds<span class="brand-country">PK</span></span></a>
+			<form class="header-search" id="search-form" role="search"><label class="sr-only" for="global-search">Search products</label><span class="search-icon" aria-hidden="true">⌕</span><input id="global-search" type="search" placeholder="Search products and categories" autocomplete="off"><button type="submit" aria-label="Search">Search</button></form>
+			<a class="compare-link" href="?page=compare"><span aria-hidden="true">⇄</span><span>Compare</span><span class="compare-count" id="compare-count">0</span></a>
+			<button class="menu-toggle" id="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false"><span></span><span></span></button>
+		</div>
+		<nav class="category-nav" id="category-nav" aria-label="Main navigation"><div class="wrap nav-inner">
+			<a href="index.html" data-nav="home">Home</a><a href="?category=mobile-gadgets" data-nav="mobile-gadgets">Mobile Gadgets</a><a href="?category=electronics" data-nav="electronics">Electronics</a><a href="?category=home-kitchen" data-nav="home-kitchen">Home &amp; Kitchen</a><a href="?category=lifestyle" data-nav="lifestyle">Lifestyle</a><a href="?category=best-deals" data-nav="best-deals">Best Deals <span class="nav-dot" aria-hidden="true"></span></a><a class="nav-mobile-compare" href="?page=compare">Compare products</a>
+		</div></nav>
+	</header>
+	<main id="main" tabindex="-1"><div class="loading-state">Loading the latest finds…</div></main>
+	<footer class="site-footer"><div class="wrap footer-top">
+		<div class="footer-brand-block"><a class="brand brand-footer" href="index.html"><span class="brand-mark" aria-hidden="true"><span></span><span></span><span></span><span></span></span><span>smartfinds<span class="brand-country">PK</span></span></a><p>Good finds, thoughtfully gathered.<br>Made for curious shoppers in Pakistan.</p></div>
+		<div class="footer-links"><span class="footer-heading">Explore</span><a href="?category=mobile-gadgets">Mobile Gadgets</a><a href="?category=electronics">Electronics</a><a href="?category=home-kitchen">Home &amp; Kitchen</a><a href="?category=lifestyle">Lifestyle</a><a href="?category=best-deals">Best Deals</a></div>
+		<div class="footer-links"><span class="footer-heading">SmartFinds PK</span><a href="?page=about">About us</a><a href="?page=contact">Contact</a><a href="?page=privacy">Privacy policy</a><a href="?page=disclosure">Affiliate disclosure</a><a href="?page=compare">Compare products</a></div>
+	</div><div class="wrap footer-bottom"><span>© <span id="current-year"></span> SmartFinds PK</span><span>Independent discovery. Purchases happen with the retailer.</span></div></footer>
+	<div class="toast" id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>

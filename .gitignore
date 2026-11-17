@@ -1,0 +1,22 @@
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editor and local tooling
+.vscode/
+.idea/
+.wrangler/
+
+# Local secrets and environment files
+.env
+.env.*
+!.env.example
+.dev.vars
+.dev.vars.*
+*.pem
+*.key
+
+# Generated dependencies and output
+node_modules/
+dist/
